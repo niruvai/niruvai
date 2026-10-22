@@ -16,7 +16,7 @@ I'm **Nirob Islam** (মো. নুরুন্নবী ইসলাম নি�
 I build websites and web apps, and I've spent **8+ years** editing video and designing motion graphics.
 I like work where a designer's eye and clean code meet: fast, simple sites that people actually enjoy using.
 
-- 🛠️ Building websites and web apps with **HTML, CSS, JavaScript**, serverless functions and **Supabase**
+- 🛠️ Building fast, clean websites and web apps that work great on mobile
 - 🎬 Editing video and motion graphics in **Premiere Pro, After Effects and Photoshop**
 - 🤝 Working with **[Life Review Team](https://lifereview.team)** and **Expert Studio**, Bogura
 - 🌐 Writing in **Bangla and English**, building for Bangla-speaking users first
@@ -28,13 +28,13 @@ I like work where a designer's eye and clean code meet: fast, simple sites that 
     <td width="50%" valign="top">
       <h3><a href="https://www.smoron.org">স্মরণ · Smoron</a></h3>
       <p>An open, free memorial and obituary archive for Bangladesh. Families create a permanent memorial page with a unique ID; searchable by name, parent's name, district or ID.</p>
-      <p>Server-rendered pages for SEO · verification badges · report & privacy system · district pages · candle tribute</p>
+      <p>Verified memorial pages · search by district · downloadable memorial cards · light a candle in tribute</p>
       <p><a href="https://www.smoron.org">smoron.org ↗</a> · <a href="https://www.nirobislam.com/blog/smoron-memorial-archive">Case study</a></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://www.nirobislam.com">nirobislam.com</a></h3>
-      <p>My bilingual (বাংলা / English) portfolio and blog, with a password-protected admin panel for writing posts, uploading images and managing projects.</p>
-      <p>Vercel functions · Markdown + Blob storage · structured data & SEO · WebP images</p>
+      <p>My bilingual (বাংলা / English) portfolio and blog, where I share the apps and websites I build and the things I write.</p>
+      <p>Projects and writing in two languages · fast on mobile · easy to update from anywhere</p>
       <p><a href="https://www.nirobislam.com">nirobislam.com ↗</a> · <a href="https://www.nirobislam.com/blog">Blog</a></p>
     </td>
   </tr>
@@ -49,10 +49,6 @@ More projects and writing: **[nirobislam.com/blog](https://www.nirobislam.com/bl
   <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
   <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
-  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
-  <img alt="Supabase" src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white">
-  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
-  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white">
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
