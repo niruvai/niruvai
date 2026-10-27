@@ -1,0 +1,30 @@
+# nirobislam.com: প্রতি ৫ মিনিটে সাইটকে জানায় "LinkedIn-এ পাঠানোর মতো পোস্ট আছে কি?"
+# পাবলিক রিপো বলে GitHub Actions এখানে পুরো ফ্রি। গোপন চাবি রাখা আছে রিপোর
+# Settings → Secrets and variables → Actions → NIROBISLAM_CRON_SECRET (Vercel-এর CRON_SECRET-এর মতোই)।
+# GitHub-এর নির্ধারিত কাজ মাঝে মাঝে কয়েক মিনিট দেরিতে চলে, তাই পোস্ট যায় প্রকাশের ~৩০–৪৫ মিনিট পর।
+name: nirobislam.com LinkedIn check
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
+
+permissions: {}
+
+concurrency:
+  group: nirobislam-linkedin
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: সাইটে চেক পাঠানো
+        env:
+          CRON_SECRET: ${{ secrets.NIROBISLAM_CRON_SECRET }}
+        run: |
+          if [ -z "$CRON_SECRET" ]; then echo "NIROBISLAM_CRON_SECRET সেট করা নেই"; exit 1; fi
+          curl -fsS --max-time 60 -A "github-actions-cron" \
+            -H "Authorization: Bearer $CRON_SECRET" \
+            "https://www.nirobislam.com/api/linkedin?action=run"
