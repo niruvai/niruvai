@@ -66,6 +66,6 @@ More projects and writing: **[nirobislam.com/blog](https://www.nirobislam.com/bl
 ## 📫 Let's work together
 
 Need a website, a web app, or a video that tells your story?
-Email **[nurunnabiislamniroob@gmail.com](mailto:nurunnabiislamniroob@gmail.com)** or visit **[nirobislam.com](https://www.nirobislam.com/#contact)**.
+Email **[nirob@nirobislam.com](mailto:nirob@nirobislam.com)** or visit **[nirobislam.com](https://www.nirobislam.com/#contact)**.
 
 <p align="center"><sub>Made with ❤️ in Bogura, Bangladesh</sub></p>
